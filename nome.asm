@@ -1,7 +1,7 @@
 	org 0
 	jmp	inicio
 	org	10
-	db	"brasil"
+	DB	"brasil"
 	org	20	;define inicio	
 inicio:
 	MOV	CL,c0
