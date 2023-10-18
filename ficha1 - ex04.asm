@@ -10,3 +10,7 @@
   INC  AL      ;incrementa +1 no valor de AL, logo o valor agr eh 11111111;
   OUT  02      ;envia o novo valor de AL para a porta de E/S 02;
   END
+
+;MOV  AL, 61
+;OUT 02
+;END  
