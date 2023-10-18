@@ -1,4 +1,5 @@
 ;Faça um programa que apresente no display de sete segmentos (porta 02) o valor 88;
+;A porta 02 eh o display;
 
   MOV  AL,00   ;00 esta sendo movido para o Reg AL;
   OUT  02      ;envia o valor de AL para a porta de E/S 02;
