@@ -7,13 +7,13 @@ MOV DL, FD
 
 ;trocando os valores, AL = FD, DL = FA;
 PUSH AL
-POP DL
-PUSH DL
+POP CL
+PUSH CL
 POP AL
 
 ;trocando os valores, BL = FC, CL = FB
 PUSH BL
-POP CL
-PUSH CL
+POP DL
+PUSH DL
 POP BL
 END
