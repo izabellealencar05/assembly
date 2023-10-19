@@ -1,4 +1,4 @@
-;Faça um programa que acenda as lâmpadas vermelhas do semáforo (porta 01); depois as lâmpadas amarelas, mantendo as vermelhas acesas e por fim as verdes, mantendo as demais acesas.
+;Faça um programa que acenda as lâmpadas vermelhas do semáforo (porta 01); depois as lâmpadas amarelas, uma luz de cada vez
 
 MOV  AL,90
 OUT  01
