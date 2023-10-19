@@ -1,4 +1,4 @@
-ORG 	0
+		ORG 	0
 		JMP 	INICIO		;pula para o inicio
 		ORG 	10		;a memoria para a string inicia em 10
 		DB 	"BRASIL"	;define a partir de 10 uma letra para cada endereco
