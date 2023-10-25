@@ -1,0 +1,8 @@
+	MOV AL,DB
+	AND AL,FD
+	MOV BL,3E
+	NOT BL
+	XOR AL,BL
+	OR AL,DA
+	END
+	
